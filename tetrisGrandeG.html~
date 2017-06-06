@@ -1,0 +1,115 @@
+<HTML>
+
+<head>
+
+<title>	 TETRIS	 </title>
+
+</head>
+
+<BODY bgcolor="#00FFFF" text="#339933">	
+	
+    <p align="center"><font size="7">
+    <span style="background-color: #00FFFF"> T E T R I S </span></font></p>
+	
+    <div align="center">
+      <center>	
+	
+	<table border="2" cellpadding="0" cellspacing="0" bordercolorlight="#00FF00" bordercolordark="#339933" bordercolor="#9AD1B7" height="800" width="800" bgcolor="#9AD1B7">
+    <tr>
+        <td width="800" height="800">
+        <p align="center">
+        <applet code="Base.class" align="center" width=800 height=800 ALT= "è necessario installare il java plug-in (browser non aggiornato!)">
+            <param name="coloreBottoniRGB" value="110,250,110">
+            <param name="coloreFontRGB" value="0,100,100">
+            <param name="colorePannelliRGB" value="154,209,183">
+            <param name="nomeBlocchi" value="blocchi.gif">
+            <param name="nomeSfondo" value="3812.jpg">browser non aggiornato
+       </applet>
+       </p>
+       </td>
+    </tr>
+</table>
+	
+	
+      </center>
+    </div>
+	
+	
+    <p align="center">&nbsp;</p>
+    <p align="left">comandi:</p>
+    <ul>
+      <li>
+        <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Freccia a
+        sinistra:&nbsp; muovi a sinistra</li>
+      <li>
+        <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Freccia a
+        destra: muovi a destra</li>
+      <li>
+        <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Freccia su:&nbsp;
+        rotazione</li>
+      <li>
+        <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Freccia giù:
+        discesa rapida</li>
+    </ul>
+    <p align="left">Ci sono 4 giochi:</p>
+    <ol>
+      <li>
+        <p align="left">Tetris classico;</li>
+      <li>
+        <p align="left">Tetris con pezzi strani;</li>
+      <li>
+        <p align="left">TetrisAbbattiL'UltimaRiga: lo scopo è abbattere
+        l'ultima riga (quella con il quadratino giallo);</li>
+      <li>
+        <p align="left">TetrisAbbattiL'UltimaRiga &amp; pezzi strani</li>
+    </ol>
+    <p align="left">La velocità si incrementa automaticamente ogni 10000 punti.</p>
+    <p align="left">Il livello indica la difficoltà iniziale (appariranno
+    alcuni pezzi sul fondo in modo casuale).</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Questo gioco è stato fatto per essere completamente
+    personalizzabile, senza cambiare una riga di codice.</p>
+    <p align="left">E' possibile cambiare lo sfondo del gioco cambiando il
+    parametro dell'applet chiamato &quot;nomeSfondo&quot; e inserendo il nome
+    per esteso dell'immagine da mettere (es. sfondo.gif), cambiare l'immagine
+    dei blocchi cambiando il parametro &quot;nomeBlocchi&quot; (per una corretta
+    visualizzazione i blocchi devono essere 20x20 pixel e allineati
+    orizzontalmente senza spazio l'uno dall'altro) e i colori con i 3 parametri
+    &quot;coloreFontRGB&quot;, &quot;colorePannelliRGB&quot; e &quot;coloreBottoniRGB&quot;
+    dove bisogna inserire tre valori da 0 a 255 separati da una virgola (se
+    omessi ci saranno blocchi, sfondo e colori di default)</p>
+    <p align="left">Se ridimensionato, il gioco si adatta alla nuova altezza e
+    larghezza, ma una dimensione ottimale si ottiene applicando la formula width=height/2+130.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">non vi piace il lato estetico del gioco?</p>
+    <p align="left">allora provate a vedere queste altre versioni (fatte
+    cambiando solo i parametri html dell'applet come detto sopra):</p>
+    <ul>
+      <li>
+        <p align="left">verde, sfondo con farfalla, grande -&gt; <a href="tetrisGrandeG.html">vedi</a></li>
+      <li>
+        <p align="left">verde, sfondo con farfalla, piccolo -&gt; <a href="tetris.html">vedi</a></li>
+      <li>
+        <p align="left">rosso, sfondo con tramonto, grande -&gt; <a href="tetrisGrandeM.html">vedi</a></li>
+      <li>
+        <p align="left">rosso, sfondo con tramonto, piccolo -&gt; <a href="tetrisPiccoloM.html">vedi</a></li>
+    </ul>
+    <p align="left">Potete addirittura scaricarvelo <a href="tetris.zip">qui</a>
+    (circa 130kb) e c'è anche il codice SORGENTE!!! da non perdere proprio se
+    siete programmatori! (anche se è solo un semplice tetris da 1500 righe
+    pieno di roba che a stringere a stringere si sarebbe potuto anche evitare di
+    mettere)</p>
+    <p align="left">Se vi è piaciuto :-) scrivetemi! Se avete trovato dei bug
+    :-( scrivetemi! Se volete dirmi qualsiasi cosa, del gioco, di quanto ci ho
+    messo, di come l'ho fatto, di perchè l'ho fatto, di computer, di
+    programmazione, di grafica, di giochi, di libri, di scuola, di me, del
+    tempo, non esitate e scrivetemi!!!</p>
+    <p align="left"><a href="mailto:d.bonfigli@tiscalinet.it">Bonfigli Diego</a>
+    ( 4°G I.T.I.S. &quot;E.Divini&quot; S.Severino (MC) - 2002/2003 )</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+	
+	
+</BODY>
+</HTML>
